@@ -7,9 +7,10 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 					//features= {".//FeatureFiles/"},
-					features= {".//FeatureFiles/UserSignUp.feature", ".///FeatureFiles/LoginFunctionallity.feature"},
+					//features= {".//FeatureFiles/UserSignUp.feature", ".///FeatureFiles/LoginFunctionallity.feature"},
 					//features= {".//FeatureFiles/LoginFunctionallity.feature",},//".//FeaturesFiles/DataDriven_login.feature"},
 					//features= {".//FeatureFiles/ContactUsFunc.feature"},
+					features= {".//FeatureFiles/ContactUsFunc.feature", ".//FeatureFiles/ViewProduct_valid.feature", ".//FeatureFiles/SubscribtionFuntionality.feature"},
 					//features= {".//FeatureFiles/ViewProduct_valid.feature"},
 					//features= {".//FeatureFiles/DataDriven_login.feature"},
 					//features= {".//FeatureFiles/SubscribtionFuntionality.feature"},
