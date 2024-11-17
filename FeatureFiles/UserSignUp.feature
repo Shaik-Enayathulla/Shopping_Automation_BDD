@@ -1,12 +1,12 @@
 Feature: User Registration testing
 
-  @Sanity, @Regression
+  @Sanity
   Scenario: Successful Signup and Login
     Given user launched the appplication and view the home screen
     When the user clicks on Signup button
     When the user enters name and email address
-      | Name  | Shaikkhan         |
-      | Email | khan@example.com |
+      | Name  | khan         |
+      | Email | khan123@example.com |
     And the user clicks Signup button
     And the user fills account details
       | Title         | Mr.         |
