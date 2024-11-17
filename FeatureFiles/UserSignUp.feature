@@ -6,11 +6,11 @@ Feature: User Registration testing
     When the user clicks on Signup button
     When the user enters name and email address
       | Name  | khan         |
-      | Email | khan123@example.com |
+      | Email | khan765@example.com |
     And the user clicks Signup button
     And the user fills account details
       | Title         | Mr.         |
-      | Name          | Shaikk        |
+      | Name          | khan       |
       | Password      | password123 |
       | Date of Birth | 12/12/1990  |
     And the user selects  checkbox
